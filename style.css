@@ -1,0 +1,123 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap");
+body {
+  margin: 0px;
+  font-family: "Roboto Slab", serif;
+}
+.header {
+  padding: 48px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 130px;
+}
+.logo img {
+  width: 100%;
+}
+
+.navmenu .menu-item {
+
+  text-decoration: none;
+  margin-right: 48px;
+  color: rgb(177,176,174);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.navmenu .active-menu-item{
+  padding: 1px;
+    color: black;
+    border-bottom: 3px solid #5343C0;
+    border-radius: 1px;
+}
+.login-btn .btn,
+.register-btn .btn {
+  background-color: #ffd8db;
+  color: #5243C0;
+  padding: 20px 36px;
+  border: 1px solid #ffd8db;
+  border-radius: 24px;
+  font-weight: 600;
+}
+.register-btn .btn{
+    background-color: #5243C0;
+  color: #ffffff;
+  margin-right: 12px;
+  
+  border: 1px solid #5243C0;
+}
+.register-btn img{
+    margin-right: 12px;
+}
+.section-banner {
+  display: flex;
+  padding: 24px;
+  margin: 50px;
+}
+.banner-text{
+    margin: 0 36px;
+}
+.banner-text h1{
+    font-size: 80px;
+    margin: 0px;
+}
+.banner-text h1 span{
+   color: #5243C0;
+}
+.banner-text p{
+    margin: 36px 0;
+    color: #534F4E;
+
+}
+
+.register-btn {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 48px;
+}
+.design-list {
+  display: flex;
+  flex-direction: column;
+}
+.design-item {
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  background: #fafafa;
+  padding: 10px 24px;
+  margin-bottom: 10px;
+  border: 0px solid #fafafa;
+  border-radius: 15px;
+}
+.design-item:hover{
+    background: #ffffff;
+    box-shadow: 0 0 16px #fafafa;
+    cursor: pointer;
+}
+.items{
+  margin-right: 20px;
+}
+.dash {
+  width: 20px;
+  height: 10px;
+  background-color: red;
+  border-radius: 5px;
+  margin-left: 15px;
+}
+.text-item{
+  width: 135px;
+}
+.dash-pink {
+  background-color: #fed7da;
+}
+.dash-red {
+  background-color: #fd6534;
+}
+.dash-green{
+  background-color: #9ED095;
+}
+.dash-yellow {
+  background-color: #FFE4A0;
+}
